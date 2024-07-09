@@ -1,6 +1,6 @@
 "use server";
 
-import { AuthResponseDto } from "@web/dto";
+import { AuthResponseDto } from "@/dto";
 // import * as jose from "jose";
 import { cookies } from "next/headers";
 

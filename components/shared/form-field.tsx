@@ -7,7 +7,7 @@ import {
   FieldValues,
 } from "react-hook-form";
 import { Label } from "../ui";
-import { cn } from "@web/lib/utils";
+import { cn } from "@/lib/utils";
 
 type renderArgs = {
   error?: boolean;

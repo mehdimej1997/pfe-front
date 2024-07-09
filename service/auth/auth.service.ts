@@ -1,4 +1,4 @@
-import { AuthResponseDto, LoginDto, SignUpDto } from "@web/dto";
+import { AuthResponseDto, LoginDto, SignUpDto } from "@/dto";
 import { api } from "../axios.config";
 
 export const login = (credentials: LoginDto) =>

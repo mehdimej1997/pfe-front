@@ -1,10 +1,10 @@
 "use client";
 
-import { SidebarItem } from "@web/components/shared/side-bar";
+import { SidebarItem } from "@/components/shared/side-bar";
 import Link from "next/link";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../../ui";
 import { usePathname } from "next/navigation";
-import { cn } from "@web/lib/utils";
+import { cn } from "@/lib/utils";
 
 type SidebarLinkProps = SidebarItem;
 

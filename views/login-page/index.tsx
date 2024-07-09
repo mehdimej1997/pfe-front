@@ -1,11 +1,11 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Icons } from "@web/components/icons";
-import { FormField } from "@web/components/shared";
-import { Button, Input } from "@web/components/ui";
-import { LoginDto, LoginSchema } from "@web/dto";
-import { useLoginMutation } from "@web/service/auth";
+import { Icons } from "@/components/icons";
+import { FormField } from "@/components/shared";
+import { Button, Input } from "@/components/ui";
+import { LoginDto, LoginSchema } from "@/dto";
+import { useLoginMutation } from "@/service/auth";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormProvider, useForm } from "react-hook-form";

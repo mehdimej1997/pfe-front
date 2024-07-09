@@ -1,4 +1,4 @@
-import { SignUp } from "@web/views";
+import { SignUp } from "@/views";
 
 const page = () => <SignUp />;
 

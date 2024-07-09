@@ -1,5 +1,5 @@
-import { Sidebar } from "@web/components/shared";
-import { TooltipProvider } from "@web/components/ui";
+import { Sidebar } from "@/components/shared";
+import { TooltipProvider } from "@/components/ui";
 
 export default function RootLayout({
   children,

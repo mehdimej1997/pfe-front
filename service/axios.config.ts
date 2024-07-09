@@ -1,4 +1,4 @@
-import { AuthResponseDto } from "@web/dto";
+import { AuthResponseDto } from "@/dto";
 import axios from "axios";
 import cookies from "js-cookie";
 

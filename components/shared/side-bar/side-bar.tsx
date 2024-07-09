@@ -13,14 +13,14 @@ import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@web/components/ui";
+} from "@/components/ui";
 import { Package2, Settings } from "lucide-react";
 import Link from "next/link";
 import { SIDEBAR_ITEMS } from "./constant";
 import { SidebarLink } from "./side-bar-link";
 import { clearCookies } from "./actions";
 import { useRouter } from "next/navigation";
-import { useMe } from "@web/service/user";
+import { useMe } from "@/service/user";
 import { capitalizeAvatarFallback } from "./utils";
 
 export const Sidebar = () => {
