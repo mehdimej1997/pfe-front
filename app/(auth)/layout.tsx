@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Paper from "@/assets/paper.jpg";
 
 export default function RootLayout({
   children,
@@ -10,7 +11,7 @@ export default function RootLayout({
       <div className="flex items-center justify-center py-12">{children}</div>
       <div className="hidden bg-muted lg:block">
         <Image
-          src="/placeholder.svg"
+          src={Paper}
           alt="Image"
           width="1920"
           height="1080"
